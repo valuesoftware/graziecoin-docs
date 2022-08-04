@@ -28,7 +28,7 @@
 |   5   | 商品画像選択ボタン |   -   | 商品がわかる画像を指定します。                                  |
 |   6   | 商品名             |   ○   | 商品名を入力します。                                            |
 |   7   | 金額               |   ○   | 商品のコイン価格を入力します。                                  |
-|   8   | 表示優先度         |   -   | 一般ユーザが商品交換する際に、表示する優先度を3段階で決めます。 |
+|   8   | 表示優先度         |   ○   | 一般ユーザが商品交換する際に、表示する優先度を3段階で決めます。 |
 |   9   | 閉じるボタン       |   -   | 登録を中止して、画面を閉じます。                                |
 |  10   | 保存ボタン         |   -   | 商品情報を登録します。                                          |
 
@@ -50,10 +50,9 @@
 
 
 ### 商品削除
+<iframe src="https://scribehow.com/embed/Workflow__alsQmC-JQX2TAzbjy75fQg" width="640" height="640" allowfullscreen frameborder="0"></iframe>
+
 !!! warning
     商品を削除すると元に戻すことができません。<br>
     一時的にユーザに見せなくしたい場合は、商品編集で商品を無効化することをおすすめします。
-
-<iframe src="https://scribehow.com/embed/Workflow__alsQmC-JQX2TAzbjy75fQg" width="640" height="640" allowfullscreen frameborder="0"></iframe>
-
 
