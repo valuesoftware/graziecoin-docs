@@ -44,10 +44,10 @@
 ### [ユーザを登録する](user02.md)
 
 
-### ユーザを編集する
+### [ユーザを編集する](user03.md)
 
 
-### ユーザを一括登録する
+### [ユーザを一括登録する](user04.md)
 
 
 ### 複数ユーザを一括で有効・無効化する
@@ -62,9 +62,9 @@
 ### 1人のユーザからコインを回収する
 <iframe src="https://scribehow.com/embed/1__ad_EZiolQDmMwd7MrspOBg" width="640" height="640" allowfullscreen frameborder="0"></iframe>
 
-### 複数ユーザに一括でコインを送る
+### [複数ユーザに一括でコインを送る](user05.md)
 
-### 複数ユーザから一括でコインを回収する
+### [複数ユーザから一括でコインを回収する](user06.md)
 
 
 
