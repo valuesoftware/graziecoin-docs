@@ -1,8 +1,11 @@
 # もくじ
 
 ## クイックスタート
-- [グラッチェをする！](howto/grazie.md)
-- [コインを商品と交換する！](howto/exchange.md)
+- [グラッチェをする！](howto/howto01.md)
+- [コインを商品と交換する！](howto/howto02.md)
+- [登録フォームからのユーザ登録](howto/howto03.md)
+- [パスワードを忘れた！](howto/howto04.md)
+- [ログアウト方法](管理者機能/logout.md)
 
 
 ## [画面一覧](user_screens.md)

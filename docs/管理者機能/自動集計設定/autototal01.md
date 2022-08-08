@@ -28,8 +28,20 @@
 ## 使い方
 
 ### 自動集計設定を登録する
+<iframe src="https://scribehow.com/embed/__CflNOBqgSYeX7RbBJOf--g" width="640" height="640" allowfullscreen frameborder="0"></iframe>
+
+!!! tip
+    設定内容は
+
+    - [集計対象組織選択](autototal02.md)
+    - [賞金入力](autototal03.md)
+    - [集計日入力](autototal04.md)
+
+    をご参照ください
 
 ### 自動集計設定を編集する
+<iframe src="https://scribehow.com/embed/__e0WGC28VRHWrk8034pKmGA" width="640" height="640" allowfullscreen frameborder="0"></iframe>
+
 
 ### 自動集計設定を削除する
 <iframe src="https://scribehow.com/embed/__zAKwB863QNuzvTWkUd4Xsw" width="640" height="640" allowfullscreen frameborder="0"></iframe>
