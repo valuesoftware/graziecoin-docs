@@ -1,0 +1,64 @@
+name: Deploy mkdocs
+
+on:
+  pull_request:
+    # PRのcloseをトリガーとしてjobを実行する
+    branches:
+      - release
+    types:
+      - closed
+
+jobs:
+  deploy:
+    runs-on: ubuntu-18.04
+    steps:
+      - name: checkout branch
+        uses: actions/checkout@v2
+        with:
+          fetch-depth: 0
+
+      - name: configure git info
+        run: |
+          git config --global user.name "github-actions-for-deploy"
+          git config --global user.email deploy-actions@github.com
+      - name: check git status/branch
+        run: |
+          git status
+          git branch
+      # mkdocsを利用するためのpython環境のセットアップ
+      - name: setup python env
+        uses: actions/setup-python@v1
+        with:
+          python-version: '3.8'
+
+      - name: install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+      # ドキュメントの作成
+      - name: mkdocs build
+        run: |
+          mkdocs build --verbose --clean
+      # ドキュメントのデプロイ
+      - name: mkdocs deploy
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.PERSONAL_ACCESS_TOKEN }}
+          publish_dir: site
+
+      # ビルド成果物のアーカイブ
+      # - name: Artifact
+      #   uses: actions/upload-artifact@v2
+      #   with:
+      #     name: Site
+      #     path: site/
+
+      # Slackでの通知
+      # - name: notify slack
+      #   uses: 8398a7/action-slack@v3
+      #   if: always()
+      #   with:
+      #     status: ${{ job.status }}
+      #     fields: repo,message,commit,author,action,eventName,ref,workflow
+      #   env:
+      #     SLACK_WEBHOOK_URL: ${{ secrets.ATM_SLACK_WEBHOOK_URL }}

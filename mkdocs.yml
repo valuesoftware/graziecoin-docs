@@ -1,0 +1,31 @@
+site_name: 'グラッチェコイン オンラインマニュアル'
+theme:
+  name: 'material'
+  lacale: ja
+  language: ja
+  favicon: images/GrazieCoin_p.png
+  logo: images/GrazieCoin_p.png
+  palette:
+    primary:  blue
+  features:
+    # 左メニューにTOC(目次)を含める
+    # 指定しないと、右側に目次が出る
+    - toc.integrate
+    - navigation.instant
+    - navigation.top
+    - navigation.tabs
+markdown_extensions:
+  # アラート修飾の設定
+  - admonition
+  # コンテンツ折りたたみ設定
+  - pymdownx.details
+  - toc:
+      toc_depth: 3
+extra:
+  search:
+    language: jp
+
+extra_javascript:
+    - 'libs/lightbox-plus-jquery.min.js'
+extra_css:
+    - 'libs/lightbox.min.css'

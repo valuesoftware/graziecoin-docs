@@ -1,0 +1,16 @@
+### Artifact
+site/
+
+### macOS ###
+.DS_Store
+*.zip
+
+### Windows ###
+# Windows thumbnail cache files
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+ehthumbs_vista.db
+
+# Windows shortcuts
+*.lnk
