@@ -1,6 +1,6 @@
 # CSVインポート
 
-## 画面
+## ユーザインポート画面
 <a href="../../../images/user/4-1.png" data-lightbox="スクリーンショット" data-title="スクリーンショット">
     <img src="../../../images/user/4-1.png" style="border: solid 1px #ccc; width: 500px;" />
 </a>
@@ -17,13 +17,6 @@
 <a href="../../../images/user/4-2.png" data-lightbox="スクリーンショット" data-title="スクリーンショット">
     <img src="../../../images/user/4-2.png" style="border: solid 1px #ccc; width: 500px;" />
 </a>
-
-### インポートエラー時の表示
-
-<a href="../../../images/user/4-2.png" data-lightbox="スクリーンショット" data-title="スクリーンショット">
-    <img src="../../../images/user/4-3.png" style="border: solid 1px #ccc; width: 500px;" />
-</a>
-
 
 
 ### 画面項目
@@ -63,7 +56,26 @@ VSC二郎,vscjiro@graziecoin.jp,0000000000,1111111111,0
 VSC管理者,vsckanri@graziecoin.jp,0000000000,1111111111,1
 ```
 
-#### よくあるインポートエラーの例
+### インポートエラー時の表示
+!!! warning
+    以下の登録結果が表示された場合、CSVデータの見直しが必要です<br>
+    [よくあるインポートエラーの例](#_6)を参考に修正をお願いいたします
+
+<a href="../../../images/user/4-2.png" data-lightbox="スクリーンショット" data-title="スクリーンショット">
+    <img src="../../../images/user/4-3.png" style="border: solid 1px #ccc; width: 500px;" />
+</a>
+
+### メール通知に失敗した場合
+
+!!! warning
+    以下の登録結果が表示された場合、対象ユーザのメールアドレスへログイン用のパスワードが**通知できていません**<br>
+    お手数ですが、対象のユーザへ[パスワード再設定方法](../../howto/howto04.md)をご案内ください
+
+<a href="../../../images/user/4-4.png" data-lightbox="スクリーンショット" data-title="スクリーンショット">
+    <img src="../../../images/user/4-4.png" style="border: solid 1px #ccc; width: 500px;" />
+</a>
+
+### よくあるインポートエラーの例
 
 !!! fail
     - CSVファイルの末尾に空行がある
@@ -77,6 +89,36 @@ VSC管理者,vsckanri@graziecoin.jp,0000000000,1111111111,1
         - 半角で入力してください
     - 上記に気をつけてCSVファイルを作成したがエラーになってしまう
         - お手数ですが作成したCSVファイルを添付して、バリューソフトウエア問合せ窓口（`app_dev@valunet.co.jp`）へお問い合わせください
+
+#### 事業所ID、部署IDが間違っている
+
+事業所コードの桁数が10桁ではない、または存在しない事業所コードを指定している場合などはエラーが発生します。
+
+<a href="../../../images/user/4-error-1.png" data-lightbox="スクリーンショット" data-title="スクリーンショット">
+    <img src="../../../images/user/4-error-1.png" style="border: solid 1px #ccc; width: 300px;" />
+</a>
+<a href="../../../images/user/4-error-1.png" data-lightbox="スクリーンショット" data-title="スクリーンショット">
+    <img src="../../../images/user/4-error-1.png" style="border: solid 1px #ccc; width: 300px;" />
+</a>
+
+
+
+#### 権限の数値が0または1ではない
+
+ユーザ権限の数値が0(一般)、1(管理者)以外の場合は、エラーが発生します。
+
+<a href="../../../images/user/4-error-3.png" data-lightbox="スクリーンショット" data-title="スクリーンショット">
+    <img src="../../../images/user/4-error-3.png" style="border: solid 1px #ccc; width: 300px;" />
+</a>
+
+
+#### エラーが解消しない場合
+- すでに登録されているメールアドレスを使用している場合があります
+    - [ユーザ一覧](user01.md)で登録されていないかご確認ください
+- ユーザの作成数がサービス利用申込時に設定されたご利用者数を超えている場合があります
+    - バリューソフトウエアまでお問合せください
+
+
 
 #### よくあるお問合せ
 !!! warning

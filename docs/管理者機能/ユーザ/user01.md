@@ -51,20 +51,44 @@
 
 
 ### 複数ユーザを一括で有効・無効化する
+ユーザ無効化による影響は[こちら](#_13)をご参照ください。
+
 <iframe src="https://scribehow.com/embed/__RjJjzSDJRTmQgaW2UFZ8ww" width="640" height="640" allowfullscreen frameborder="0"></iframe>
 
 ### 複数ユーザの所属組織を一括で変更する
 <iframe src="https://scribehow.com/embed/Workflow__5U_3RobQT8q2UXaGUlrcKg" width="640" height="640" allowfullscreen frameborder="0"></iframe>
 
 ### 1人のユーザにコインを送る
+
+!!! info
+    管理者は一般ユーザに対してコインを付与することができます<br>
+    付与するコインは、会社または事業所のウォレットから支払われます<br>
+    ウォレット残高は[管理者コンソール](../adminconsole.md)に表示されています
+
+
 <iframe src="https://scribehow.com/embed/1__qIm60GrJQVqGEqmmpfoQvA" width="640" height="640" allowfullscreen frameborder="0"></iframe>
 
 ### 1人のユーザからコインを回収する
+
+!!! info
+    管理者は一般ユーザに対して誤ってコインを付与してしまった際などに付与したコインを回収することができます
+
 <iframe src="https://scribehow.com/embed/1__ad_EZiolQDmMwd7MrspOBg" width="640" height="640" allowfullscreen frameborder="0"></iframe>
 
 ### [複数ユーザに一括でコインを送る](user05.md)
 
 ### [複数ユーザから一括でコインを回収する](user06.md)
+
+
+## 無効化されたユーザ
+
+無効となったユーザは、グラッチェコイン上では以下の挙動となります
+
+!!! info
+    - 無効となったユーザは、ログインができなくなります
+    - 無効となったユーザに対して、一般ユーザからコインの送金やグラッチェをすることができなくなります
+    - 履歴では、無効となったユーザが関わる取引は閲覧できなくなります
+    - 無効となったユーザは、ランキングや集計の対象外になります
 
 
 

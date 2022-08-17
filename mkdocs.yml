@@ -10,7 +10,7 @@ theme:
   features:
     # 左メニューにTOC(目次)を含める
     # 指定しないと、右側に目次が出る
-    - toc.integrate
+    # - toc.integrate
     - navigation.instant
     - navigation.top
     - navigation.tabs

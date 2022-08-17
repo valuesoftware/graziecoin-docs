@@ -46,13 +46,13 @@
 <iframe src="https://scribehow.com/embed/__RgngFh7yQeGRJZJKTTO_vg" width="640" height="640" allowfullscreen frameborder="0"></iframe>
 
 !!! info
-    価格の変更や商品在庫がなくなった場合、商品を無効化することで一時的にユーザが閲覧する商品一覧から非表示にできます。
+    価格の変更や商品在庫がなくなった場合、**商品を無効化する**ことでユーザに商品が表示されなくなります。
 
 
 ### 商品削除
 <iframe src="https://scribehow.com/embed/Workflow__alsQmC-JQX2TAzbjy75fQg" width="640" height="640" allowfullscreen frameborder="0"></iframe>
 
 !!! warning
-    商品を削除すると元に戻すことができません。<br>
-    一時的にユーザに見せなくしたい場合は、商品編集で商品を無効化することをおすすめします。
+    商品を削除すると**元に戻すことができません**。<br>
+    一時的にユーザに見せなくしたい場合は、商品編集で**商品を無効化する**ことをおすすめします。
 
