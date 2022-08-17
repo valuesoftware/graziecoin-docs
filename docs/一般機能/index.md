@@ -10,20 +10,21 @@
 - [グラッチェする](GraziePoint/grazie02.md)
 
 ### Grazie Coin
-- [Top]
-- [コインを送る]
-- [商品交換]
+- [Top](GrazieCoin/coin01.md)
+- [コインを送る](GrazieCoin/coin02.md)
+- [商品交換](GrazieCoin/coin03.md)
 
 ### History
 - [ポイント履歴](History/history01.md)
 - [コイン履歴](History/history02.md)
 
 ### Ranking
-- [Top]
+- [Top](Ranking/ranking01.md)
 
-### Settings
-- [Top]
-
+### Setting
+- [ユーザ情報変更](Setting/setting01.md)
+- [通知設定](Setting/setting02.md)
+- [不具合報告](Setting/setting03.md)
 
 ## オプション機能
 

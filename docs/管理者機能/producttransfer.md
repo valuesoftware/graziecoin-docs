@@ -14,6 +14,19 @@
 5. 管理者ユーザは該当の**商品交換申請**を「交換済み」にします
 
 
+#### 商品交換メールの文面
+
+- 件名
+    - `商品交換: {商品名}`
+- 本文
+```
+管理者宛に下記のイベントが到着しました。
+ユーザ名: {交換したユーザ名}
+メールアドレス: {交換したユーザのID}
+金額は {商品価格} GRCです。
+```
+
+
 ## 画面
 <a href="../../images/producttransfer/1.png" data-lightbox="スクリーンショット" data-title="スクリーンショット">
     <img src="../../images/producttransfer/1.png" style="border: solid 1px #ccc; width: 800px;" />
