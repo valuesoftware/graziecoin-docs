@@ -238,9 +238,7 @@
   
 
 
-  
-
-<nav class="md-nav md-nav--primary md-nav--lifted md-nav--integrated" aria-label="ナビゲーション" data-md-level="0">
+<nav class="md-nav md-nav--primary md-nav--lifted" aria-label="ナビゲーション" data-md-level="0">
   <label class="md-nav__title" for="__drawer">
     <a href="../../.." title="グラッチェコイン オンラインマニュアル" class="md-nav__button md-logo" aria-label="グラッチェコイン オンラインマニュアル" data-md-component="logo">
       
@@ -409,6 +407,67 @@
               </div>
             
             
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="目次">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      目次
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#_2" class="md-nav__link">
+    組織の構造
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_3" class="md-nav__link">
+    機能と組織の関係
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_4" class="md-nav__link">
+    ウォレットの管理方法
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_5" class="md-nav__link">
+    事業所の登録
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_6" class="md-nav__link">
+    部署の登録
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
           
           <div class="md-content" data-md-component="content">
             <article class="md-content__inner md-typeset">
@@ -456,7 +515,47 @@
 <li><strong>部署</strong>が無効設定の場合、<strong>部署</strong>は登録できません</li>
 </ul>
 </div>
-<h2 id="_3">ウォレットの管理方法</h2>
+<h2 id="_3">機能と組織の関係</h2>
+<table>
+<thead>
+<tr>
+<th align="center">機能</th>
+<th align="left">対象範囲</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center">グラッチェ</td>
+<td align="left">全てのユーザへグラッチェできます</td>
+</tr>
+<tr>
+<td align="center">コイン送金</td>
+<td align="left">全てのユーザへ送金できます</td>
+</tr>
+<tr>
+<td align="center">商品交換</td>
+<td align="left">ユーザが所属する事業所で登録された商品のみ交換可能です</td>
+</tr>
+<tr>
+<td align="center">集計</td>
+<td align="left">事業所単位または事業所内の部署単位で集計します。<br>表彰した場合、会社または事業所のウォレットから賞金を引き落とします</td>
+</tr>
+<tr>
+<td align="center">履歴閲覧</td>
+<td align="left">全てのユーザが履歴を閲覧できます</td>
+</tr>
+<tr>
+<td align="center">ランキング表示</td>
+<td align="left">会社全体または事業所単位でランキング表示します</td>
+</tr>
+</tbody>
+</table>
+<div class="admonition info">
+<p class="admonition-title">Info</p>
+<p>一般ユーザがサービスを利用する上で、組織を意識するシーンは多くありません。(あるとすれば商品のラインナップが事業所ごとに異なるなど)<br>
+管理者ユーザが運用する際はウォレット(後述)や、集計範囲について組織をどう登録するかが、考慮点となります</p>
+</div>
+<h2 id="_4">ウォレットの管理方法</h2>
 <p>グラッチェコインでは従業員へ配るコインを保持するウォレットを、会社または事業所のどちらかで管理します。（会社と事業所の両方で管理することはできません）</p>
 <p>ウォレット管理を会社または事業所で行うかは、ご契約時に選択していただきます。なお、上述のパターン③は会社でのみウォレット管理ができます。</p>
 <p>ウォレット管理方法の違いは以下になります。</p>
@@ -484,14 +583,14 @@
 </tr>
 </tbody>
 </table>
-<h2 id="_4"><a href="../../groupmaintenance/#_7">事業所の登録</a></h2>
+<h2 id="_5"><a href="../../groupmaintenance/#_7">事業所の登録</a></h2>
 <div class="admonition info">
 <p class="admonition-title">Info</p>
 <ul>
 <li><strong>事業所</strong>が無効設定の場合、<strong>事業所</strong>は登録できません</li>
 </ul>
 </div>
-<h2 id="_5"><a href="../../groupmaintenance/#_9">部署の登録</a></h2>
+<h2 id="_6"><a href="../../groupmaintenance/#_9">部署の登録</a></h2>
 <div class="admonition info">
 <p class="admonition-title">Info</p>
 <ul>
@@ -538,7 +637,7 @@
       <div class="md-dialog__inner md-typeset"></div>
     </div>
     
-    <script id="__config" type="application/json">{"base": "../../..", "features": ["toc.integrate", "navigation.instant", "navigation.top", "navigation.tabs"], "search": "../../../assets/javascripts/workers/search.ecf98df9.min.js", "translations": {"clipboard.copied": "\u30b3\u30d4\u30fc\u3057\u307e\u3057\u305f", "clipboard.copy": "\u30af\u30ea\u30c3\u30d7\u30dc\u30fc\u30c9\u3078\u30b3\u30d4\u30fc", "search.config.lang": "ja", "search.config.pipeline": "trimmer, stemmer", "search.config.separator": "[\\s\\-\u3000\u3001\u3002\uff0c\uff0e]+", "search.placeholder": "\u691c\u7d22", "search.result.more.one": "\u3053\u306e\u30da\u30fc\u30b8\u5185\u306b\u3082\u30461\u4ef6\u898b\u3064\u304b\u308a\u307e\u3057\u305f", "search.result.more.other": "\u3053\u306e\u30da\u30fc\u30b8\u5185\u306b\u3042\u3068#\u4ef6\u898b\u3064\u304b\u308a\u307e\u3057\u305f", "search.result.none": "\u4f55\u3082\u898b\u3064\u304b\u308a\u307e\u305b\u3093\u3067\u3057\u305f", "search.result.one": "1\u4ef6\u898b\u3064\u304b\u308a\u307e\u3057\u305f", "search.result.other": "#\u4ef6\u898b\u3064\u304b\u308a\u307e\u3057\u305f", "search.result.placeholder": "\u691c\u7d22\u30ad\u30fc\u30ef\u30fc\u30c9\u3092\u5165\u529b\u3057\u3066\u304f\u3060\u3055\u3044", "search.result.term.missing": "\u691c\u7d22\u306b\u542b\u307e\u308c\u306a\u3044", "select.version.title": "Select version"}}</script>
+    <script id="__config" type="application/json">{"base": "../../..", "features": ["navigation.instant", "navigation.top", "navigation.tabs"], "search": "../../../assets/javascripts/workers/search.ecf98df9.min.js", "translations": {"clipboard.copied": "\u30b3\u30d4\u30fc\u3057\u307e\u3057\u305f", "clipboard.copy": "\u30af\u30ea\u30c3\u30d7\u30dc\u30fc\u30c9\u3078\u30b3\u30d4\u30fc", "search.config.lang": "ja", "search.config.pipeline": "trimmer, stemmer", "search.config.separator": "[\\s\\-\u3000\u3001\u3002\uff0c\uff0e]+", "search.placeholder": "\u691c\u7d22", "search.result.more.one": "\u3053\u306e\u30da\u30fc\u30b8\u5185\u306b\u3082\u30461\u4ef6\u898b\u3064\u304b\u308a\u307e\u3057\u305f", "search.result.more.other": "\u3053\u306e\u30da\u30fc\u30b8\u5185\u306b\u3042\u3068#\u4ef6\u898b\u3064\u304b\u308a\u307e\u3057\u305f", "search.result.none": "\u4f55\u3082\u898b\u3064\u304b\u308a\u307e\u305b\u3093\u3067\u3057\u305f", "search.result.one": "1\u4ef6\u898b\u3064\u304b\u308a\u307e\u3057\u305f", "search.result.other": "#\u4ef6\u898b\u3064\u304b\u308a\u307e\u3057\u305f", "search.result.placeholder": "\u691c\u7d22\u30ad\u30fc\u30ef\u30fc\u30c9\u3092\u5165\u529b\u3057\u3066\u304f\u3060\u3055\u3044", "search.result.term.missing": "\u691c\u7d22\u306b\u542b\u307e\u308c\u306a\u3044", "select.version.title": "Select version"}}</script>
     
     
       <script src="../../../assets/javascripts/bundle.9c69f0bc.min.js"></script>

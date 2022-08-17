@@ -238,9 +238,7 @@
   
 
 
-  
-
-<nav class="md-nav md-nav--primary md-nav--lifted md-nav--integrated" aria-label="ナビゲーション" data-md-level="0">
+<nav class="md-nav md-nav--primary md-nav--lifted" aria-label="ナビゲーション" data-md-level="0">
   <label class="md-nav__title" for="__drawer">
     <a href="../../.." title="グラッチェコイン オンラインマニュアル" class="md-nav__button md-logo" aria-label="グラッチェコイン オンラインマニュアル" data-md-component="logo">
       
@@ -409,6 +407,133 @@
               </div>
             
             
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="目次">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      目次
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#_1" class="md-nav__link">
+    ユーザインポート画面
+  </a>
+  
+    <nav class="md-nav" aria-label="ユーザインポート画面">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#_2" class="md-nav__link">
+    画面項目
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#csv_1" class="md-nav__link">
+    CSVファイルインポート結果表示画面
+  </a>
+  
+    <nav class="md-nav" aria-label="CSVファイルインポート結果表示画面">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#_3" class="md-nav__link">
+    画面項目
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#csv_2" class="md-nav__link">
+    CSVファイルについて
+  </a>
+  
+    <nav class="md-nav" aria-label="CSVファイルについて">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#csv_3" class="md-nav__link">
+    CSVファイルの例
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_4" class="md-nav__link">
+    インポートエラー時の表示
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_5" class="md-nav__link">
+    メール通知に失敗した場合
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_6" class="md-nav__link">
+    よくあるインポートエラーの例
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_9" class="md-nav__link">
+    使い方
+  </a>
+  
+    <nav class="md-nav" aria-label="使い方">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#csv_4" class="md-nav__link">
+    CSVインポートでユーザを登録する
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
           
           <div class="md-content" data-md-component="content">
             <article class="md-content__inner md-typeset">
@@ -417,7 +542,7 @@
 
 
 <h1 id="csv">CSVインポート</h1>
-<h2 id="_1">画面</h2>
+<h2 id="_1">ユーザインポート画面</h2>
 <p><a href="../../../images/user/4-1.png" data-lightbox="スクリーンショット" data-title="スクリーンショット">
     <img src="../../../images/user/4-1.png" style="border: solid 1px #ccc; width: 500px;" />
 </a></p>
@@ -462,11 +587,7 @@
 <p><a href="../../../images/user/4-2.png" data-lightbox="スクリーンショット" data-title="スクリーンショット">
     <img src="../../../images/user/4-2.png" style="border: solid 1px #ccc; width: 500px;" />
 </a></p>
-<h3 id="_3">インポートエラー時の表示</h3>
-<p><a href="../../../images/user/4-2.png" data-lightbox="スクリーンショット" data-title="スクリーンショット">
-    <img src="../../../images/user/4-3.png" style="border: solid 1px #ccc; width: 500px;" />
-</a></p>
-<h3 id="_4">画面項目</h3>
+<h3 id="_3">画面項目</h3>
 <table>
 <thead>
 <tr>
@@ -541,7 +662,25 @@
 VSC二郎,vscjiro@graziecoin.jp,0000000000,1111111111,0
 VSC管理者,vsckanri@graziecoin.jp,0000000000,1111111111,1
 </code></pre>
-<h4 id="_5">よくあるインポートエラーの例</h4>
+<h3 id="_4">インポートエラー時の表示</h3>
+<div class="admonition warning">
+<p class="admonition-title">Warning</p>
+<p>以下の登録結果が表示された場合、CSVデータの見直しが必要です<br>
+<a href="#_6">よくあるインポートエラーの例</a>を参考に修正をお願いいたします</p>
+</div>
+<p><a href="../../../images/user/4-2.png" data-lightbox="スクリーンショット" data-title="スクリーンショット">
+    <img src="../../../images/user/4-3.png" style="border: solid 1px #ccc; width: 500px;" />
+</a></p>
+<h3 id="_5">メール通知に失敗した場合</h3>
+<div class="admonition warning">
+<p class="admonition-title">Warning</p>
+<p>以下の登録結果が表示された場合、対象ユーザのメールアドレスへログイン用のパスワードが<strong>通知できていません</strong><br>
+お手数ですが、対象のユーザへ<a href="../../../howto/howto04/">パスワード再設定方法</a>をご案内ください</p>
+</div>
+<p><a href="../../../images/user/4-4.png" data-lightbox="スクリーンショット" data-title="スクリーンショット">
+    <img src="../../../images/user/4-4.png" style="border: solid 1px #ccc; width: 500px;" />
+</a></p>
+<h3 id="_6">よくあるインポートエラーの例</h3>
 <div class="admonition fail">
 <p class="admonition-title">Fail</p>
 <ul>
@@ -568,7 +707,31 @@ VSC管理者,vsckanri@graziecoin.jp,0000000000,1111111111,1
 </li>
 </ul>
 </div>
-<h4 id="_6">よくあるお問合せ</h4>
+<h4 id="idid">事業所ID、部署IDが間違っている</h4>
+<p>事業所コードの桁数が10桁ではない、または存在しない事業所コードを指定している場合などはエラーが発生します。</p>
+<p><a href="../../../images/user/4-error-1.png" data-lightbox="スクリーンショット" data-title="スクリーンショット">
+    <img src="../../../images/user/4-error-1.png" style="border: solid 1px #ccc; width: 300px;" />
+</a>
+<a href="../../../images/user/4-error-1.png" data-lightbox="スクリーンショット" data-title="スクリーンショット">
+    <img src="../../../images/user/4-error-1.png" style="border: solid 1px #ccc; width: 300px;" />
+</a></p>
+<h4 id="01">権限の数値が0または1ではない</h4>
+<p>ユーザ権限の数値が0(一般)、1(管理者)以外の場合は、エラーが発生します。</p>
+<p><a href="../../../images/user/4-error-3.png" data-lightbox="スクリーンショット" data-title="スクリーンショット">
+    <img src="../../../images/user/4-error-3.png" style="border: solid 1px #ccc; width: 300px;" />
+</a></p>
+<h4 id="_7">エラーが解消しない場合</h4>
+<ul>
+<li>すでに登録されているメールアドレスを使用している場合があります<ul>
+<li><a href="../user01/">ユーザ一覧</a>で登録されていないかご確認ください</li>
+</ul>
+</li>
+<li>ユーザの作成数がサービス利用申込時に設定されたご利用者数を超えている場合があります<ul>
+<li>バリューソフトウエアまでお問合せください</li>
+</ul>
+</li>
+</ul>
+<h4 id="_8">よくあるお問合せ</h4>
 <div class="admonition warning">
 <p class="admonition-title">Warning</p>
 <ul>
@@ -578,7 +741,7 @@ VSC管理者,vsckanri@graziecoin.jp,0000000000,1111111111,1
 </li>
 </ul>
 </div>
-<h2 id="_7">使い方</h2>
+<h2 id="_9">使い方</h2>
 <h3 id="csv_4">CSVインポートでユーザを登録する</h3>
 <iframe src="https://scribehow.com/embed/CSV__wuuihIlBRUGkNUT21doutg" width="640" height="640" allowfullscreen frameborder="0"></iframe>
 
@@ -621,7 +784,7 @@ VSC管理者,vsckanri@graziecoin.jp,0000000000,1111111111,1
       <div class="md-dialog__inner md-typeset"></div>
     </div>
     
-    <script id="__config" type="application/json">{"base": "../../..", "features": ["toc.integrate", "navigation.instant", "navigation.top", "navigation.tabs"], "search": "../../../assets/javascripts/workers/search.ecf98df9.min.js", "translations": {"clipboard.copied": "\u30b3\u30d4\u30fc\u3057\u307e\u3057\u305f", "clipboard.copy": "\u30af\u30ea\u30c3\u30d7\u30dc\u30fc\u30c9\u3078\u30b3\u30d4\u30fc", "search.config.lang": "ja", "search.config.pipeline": "trimmer, stemmer", "search.config.separator": "[\\s\\-\u3000\u3001\u3002\uff0c\uff0e]+", "search.placeholder": "\u691c\u7d22", "search.result.more.one": "\u3053\u306e\u30da\u30fc\u30b8\u5185\u306b\u3082\u30461\u4ef6\u898b\u3064\u304b\u308a\u307e\u3057\u305f", "search.result.more.other": "\u3053\u306e\u30da\u30fc\u30b8\u5185\u306b\u3042\u3068#\u4ef6\u898b\u3064\u304b\u308a\u307e\u3057\u305f", "search.result.none": "\u4f55\u3082\u898b\u3064\u304b\u308a\u307e\u305b\u3093\u3067\u3057\u305f", "search.result.one": "1\u4ef6\u898b\u3064\u304b\u308a\u307e\u3057\u305f", "search.result.other": "#\u4ef6\u898b\u3064\u304b\u308a\u307e\u3057\u305f", "search.result.placeholder": "\u691c\u7d22\u30ad\u30fc\u30ef\u30fc\u30c9\u3092\u5165\u529b\u3057\u3066\u304f\u3060\u3055\u3044", "search.result.term.missing": "\u691c\u7d22\u306b\u542b\u307e\u308c\u306a\u3044", "select.version.title": "Select version"}}</script>
+    <script id="__config" type="application/json">{"base": "../../..", "features": ["navigation.instant", "navigation.top", "navigation.tabs"], "search": "../../../assets/javascripts/workers/search.ecf98df9.min.js", "translations": {"clipboard.copied": "\u30b3\u30d4\u30fc\u3057\u307e\u3057\u305f", "clipboard.copy": "\u30af\u30ea\u30c3\u30d7\u30dc\u30fc\u30c9\u3078\u30b3\u30d4\u30fc", "search.config.lang": "ja", "search.config.pipeline": "trimmer, stemmer", "search.config.separator": "[\\s\\-\u3000\u3001\u3002\uff0c\uff0e]+", "search.placeholder": "\u691c\u7d22", "search.result.more.one": "\u3053\u306e\u30da\u30fc\u30b8\u5185\u306b\u3082\u30461\u4ef6\u898b\u3064\u304b\u308a\u307e\u3057\u305f", "search.result.more.other": "\u3053\u306e\u30da\u30fc\u30b8\u5185\u306b\u3042\u3068#\u4ef6\u898b\u3064\u304b\u308a\u307e\u3057\u305f", "search.result.none": "\u4f55\u3082\u898b\u3064\u304b\u308a\u307e\u305b\u3093\u3067\u3057\u305f", "search.result.one": "1\u4ef6\u898b\u3064\u304b\u308a\u307e\u3057\u305f", "search.result.other": "#\u4ef6\u898b\u3064\u304b\u308a\u307e\u3057\u305f", "search.result.placeholder": "\u691c\u7d22\u30ad\u30fc\u30ef\u30fc\u30c9\u3092\u5165\u529b\u3057\u3066\u304f\u3060\u3055\u3044", "search.result.term.missing": "\u691c\u7d22\u306b\u542b\u307e\u308c\u306a\u3044", "select.version.title": "Select version"}}</script>
     
     
       <script src="../../../assets/javascripts/bundle.9c69f0bc.min.js"></script>
