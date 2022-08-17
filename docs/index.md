@@ -1,5 +1,16 @@
 # もくじ
 
+- [グラッチェコイン ログインページはこちら](https://www.graziecoin.jp/login)
+
+## 動作環境
+グラッチェコインは以下のブラウザでお使いいただけます。
+
+- Safari
+- Microsoft Edge（レガシー版除く）
+- Google Chrome
+- Firefox
+
+
 ## クイックスタート
 - [グラッチェをする！](howto/howto01.md)
 - [コインを商品と交換する！](howto/howto02.md)
