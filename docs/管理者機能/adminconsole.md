@@ -22,7 +22,9 @@
 !!! info
     レートオプション有効時には、画面項目が増えます
 
-<iframe src="https://scribehow.com/embed/Workflow__-GCwrF3kTMq0oXJP6dJm_Q" width="640" height="640" allowfullscreen frameborder="0"></iframe>
+<a href="../../images/adminconsole/2.png" data-lightbox="スクリーンショット" data-title="スクリーンショット">
+    <img src="../../images/adminconsole/2.png" style="border: solid 1px #ccc; width: 800px;" />
+</a>
 
 
 ## 使い方
