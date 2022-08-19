@@ -113,6 +113,7 @@
 
 ### 選挙結果を公開する
 !!! info
-    投票結果は管理者が手動で公開の操作をすることで、一般ユーザが結果を閲覧でき流ようになります
+    - 投票結果は管理者が手動で公開の操作をすることで、一般ユーザが結果を閲覧できるようになります
+    - **選挙に賞金が設定されている場合、結果公開時に優勝者またはそれ以外の候補者に賞金を自動で授与します**
 
 <iframe src="https://scribehow.com/embed/__ARvvyMzlTwig5U7EWSUFUA" width="640" height="640" allowfullscreen frameborder="0"></iframe>
