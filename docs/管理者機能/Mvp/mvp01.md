@@ -2,7 +2,7 @@
 
 ## 選挙一覧画面
 <a href="../../../images/mvp/1-1.png" data-lightbox="スクリーンショット" data-title="スクリーンショット">
-    <img src="../../../images/mvp/1-1.png" style="border: solid 1px #ccc; width: 800px;" />
+    <img src="../../../images/mvp/1-1.png" style="border: solid 1px #ccc; width: 600px;" />
 </a>
 
 ### 項目
@@ -19,7 +19,7 @@
 
 ## 新規選挙作成画面（選挙方式選択前）
 <a href="../../../images/mvp/1-2.png" data-lightbox="スクリーンショット" data-title="スクリーンショット">
-    <img src="../../../images/mvp/1-2.png" style="border: solid 1px #ccc; width: 800px;" />
+    <img src="../../../images/mvp/1-2.png" style="border: solid 1px #ccc; width: 600px;" />
 </a>
 
 
@@ -38,13 +38,13 @@
     選択した選挙方式によって画面の入力内容が異なります
 
 <a href="../../../images/mvp/1-3.png" data-lightbox="スクリーンショット" data-title="スクリーンショット">
-    <img src="../../../images/mvp/1-3.png" style="border: solid 1px #ccc; width: 800px;" />
+    <img src="../../../images/mvp/1-3.png" style="border: solid 1px #ccc; width: 600px;" />
 </a>
 <a href="../../../images/mvp/1-4.png" data-lightbox="スクリーンショット" data-title="スクリーンショット">
-    <img src="../../../images/mvp/1-4.png" style="border: solid 1px #ccc; width: 800px;" />
+    <img src="../../../images/mvp/1-4.png" style="border: solid 1px #ccc; width: 600px;" />
 </a>
 <a href="../../../images/mvp/1-5.png" data-lightbox="スクリーンショット" data-title="スクリーンショット">
-    <img src="../../../images/mvp/1-5.png" style="border: solid 1px #ccc; width: 800px;" />
+    <img src="../../../images/mvp/1-5.png" style="border: solid 1px #ccc; width: 600px;" />
 </a>
 
 ### 項目
@@ -74,10 +74,10 @@
 
 ## 新規選挙作成画面（推薦**なし**方式選択時）
 <a href="../../../images/mvp/1-6.png" data-lightbox="スクリーンショット" data-title="スクリーンショット">
-    <img src="../../../images/mvp/1-6.png" style="border: solid 1px #ccc; width: 800px;" />
+    <img src="../../../images/mvp/1-6.png" style="border: solid 1px #ccc; width: 600px;" />
 </a>
 <a href="../../../images/mvp/1-7.png" data-lightbox="スクリーンショット" data-title="スクリーンショット">
-    <img src="../../../images/mvp/1-7.png" style="border: solid 1px #ccc; width: 800px;" />
+    <img src="../../../images/mvp/1-7.png" style="border: solid 1px #ccc; width: 600px;" />
 </a>
 
 ### 項目
@@ -101,6 +101,15 @@
 |  16   | 閉じるボタン               |   -   | ボタンを押すと画面を閉じます                                                                                                   |
 |  17   | 保存ボタン                 |   -   | ボタンを押すと入力内容で登録します                                                                                             |
 
+## 選挙編集
+
+<a href="../../../images/mvp/1-8.png" data-lightbox="スクリーンショット" data-title="スクリーンショット">
+    <img src="../../../images/mvp/1-8.png" style="border: solid 1px #ccc; width: 600px;" />
+</a>
+
+!!! warning
+    編集時は、選挙方式と推薦期間・投票期間を変更することができません<br>これらの項目を変更したい場合は、選挙を新規作成してください。
+
 
 ## 使い方
 
@@ -112,3 +121,6 @@
 
 <iframe src="https://scribehow.com/embed/__DM1TSSHSRKybnNofaSaYNg" width="640" height="640" allowfullscreen frameborder="0"></iframe>
 
+### 選挙を編集する
+
+<iframe src="https://scribehow.com/embed/__SmiC7-_OQdWEo5eL1iG8GA" width="640" height="640" allowfullscreen frameborder="0"></iframe>
