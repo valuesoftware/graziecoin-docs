@@ -15,6 +15,10 @@ theme:
     - navigation.top
     - navigation.tabs
 markdown_extensions:
+  # アイコン・絵文字の設定
+  - pymdownx.emoji:
+      emoji_index: !!python/name:materialx.emoji.twemoji
+      emoji_generator: !!python/name:materialx.emoji.to_svg
   # アラート修飾の設定
   - admonition
   # コンテンツ折りたたみ設定
