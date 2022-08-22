@@ -2,33 +2,33 @@
 
 ## ⚙️機能説明
 
-### メニュー
+### :material-menu: メニュー
 - [画面構成](メニュー/menu01.md)
 
-### Grazie Point
+### :material-thumb-up: Grazie Point
 - [Top](GraziePoint/grazie01.md)
 - [グラッチェする](GraziePoint/grazie02.md)
 
-### Grazie Coin
+### :fontawesome-solid-coins: Grazie Coin
 - [Top](GrazieCoin/coin01.md)
 - [コインを送る](GrazieCoin/coin02.md)
 - [商品交換](GrazieCoin/coin03.md)
 
-### History
+### :material-history: History
 - [ポイント履歴](History/history01.md)
 - [コイン履歴](History/history02.md)
 
-### Ranking
+### :fontawesome-solid-trophy: Ranking
 - [Top](Ranking/ranking01.md)
 
-### Setting
+### :material-cog: Setting
 - [ユーザ情報変更](Setting/setting01.md)
 - [通知設定](Setting/setting02.md)
 - [不具合報告](Setting/setting03.md)
 
 ## オプション機能
 
-### MVP
+### :material-fire: MVP
 - [MVPとは](../管理者機能/オプション機能/option02.md)
 - [選挙を表示する](Mvp/mvp11.md)
 - [候補者を推薦する](Mvp/mvp12.md)
