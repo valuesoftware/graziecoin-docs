@@ -11,7 +11,7 @@
 4. [商品を登録する](導入後に行う作業/setup04.md)
 
 
-## 💡よく使う機能の説明
+## :octicons-light-bulb-16: よく使う機能
 
 ### ❗新しくユーザを登録したい
 - [ユーザ登録](ユーザ/user02.md)
@@ -60,21 +60,20 @@
 
 
 ### ❗社員全員の投票でMVPを決めたい(オプション機能)
-- MVP機能でできること
-- MVPの流れ
+- [MVPとは](オプション機能/option02.md)
 
 ### ❗レート機能を導入する（オプション機能）
 - [レートとは](オプション機能/option01.md#_2)
 
 
 ## ⚙️機能説明
-### 管理者コンソール
+### :material-menu: 管理者コンソール
 - [メニュー](adminconsole.md)
 
-### 組織
+### :material-office-building: 組織
 - [組織管理](groupmaintenance.md)
 
-### ユーザ
+### :fontawesome-solid-user: ユーザ
 - [ユーザ一覧](ユーザ/user01.md)
 - [ユーザ登録](ユーザ/user02.md)
 - [ユーザ編集](ユーザ/user03.md)
@@ -82,40 +81,40 @@
 - [コイン一括配布](ユーザ/user05.md)
 - [コイン一括回収](ユーザ/user06.md)
 
-### 商品
+### :material-gift: 商品
 - [商品管理](productmaintenance.md)
 
-### 商品交換状況
+### :material-car-estate: 商品交換状況
 - [商品交換状況管理](producttransfer.md)
 
-### 集計・表彰
+### :material-calculator: 集計・表彰
 - [集計実行](集計・表彰/total01.md)
 - [集計履歴](集計・表彰/total02.md)
 - [表彰](集計・表彰/total03.md)
 
-### 自動集計設定
+### :fontawesome-solid-robot: 自動集計設定
 - [自動集計設定一覧](自動集計設定/autototal01.md)
 - [集計対象組織選択](自動集計設定/autototal02.md)
 - [賞金入力](自動集計設定/autototal03.md)
 - [集計日入力](自動集計設定/autototal04.md)
 - [入力内容確認](自動集計設定/autototal05.md)
 
-### 予算設定
+### :material-bank: 予算設定
 - [予算設定](予算設定/budget01.md)
 - [流通額確認](予算設定/budget02.md)
 
-### 利用状況
-- [ログイン数](利用状況/analysis01.md)
+### :material-chart-pie: 利用状況
+- [ログインユーザ数](利用状況/analysis01.md)
 - [グラッチェ数](利用状況/analysis02.md)
 
 
-### その他設定
+### :material-cog: その他設定
 - [回数制限](その他設定/other01.md)
 - [スーパーグラッチェ](その他設定/other02.md)
 - [ユーザ登録リンク](その他設定/other03.md)
 
 ## 機能説明(オプション)
-- [レート](../管理者機能/オプション機能/option01.md#_7)
-- [MVP](../管理者機能/Mvp/index.md)
+- :fontawesome-solid-money-bill: [レート](../管理者機能/オプション機能/option01.md#_7)
+- :fontawesome-solid-trophy: [MVP](../管理者機能/Mvp/index.md)
 
 

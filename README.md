@@ -9,6 +9,8 @@
     - [Tips](#tips)
         - [装飾](#装飾)
         - [折りたたみ](#折りたたみ)
+        - [絵文字](#絵文字)
+        - [参考](#参考)
 ## 環境構築
 作業用PCはMacだけなので、macOSでの手順のみ。
 必要があればWindowsでの手順を作成する。
@@ -187,5 +189,11 @@ Pythonのパッケージマネージャーであるpipをインストール
 ```
 
 
+### 絵文字
+以下でキーワードを入力して、表示されたショートコードをコピーしてMarkdownに貼り付ける。
 
+https://squidfunk.github.io/mkdocs-material/reference/icons-emojis/#search
+
+
+### 参考
 https://roy-n-roy.nyan-co.page/mkdocs/

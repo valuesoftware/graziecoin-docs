@@ -18,10 +18,11 @@
 ## 動作ブラウザ
 グラッチェコインは以下のブラウザでお使いいただけます。
 
-- Safari
-- Google Chrome
-- Firefox
-- Microsoft Edge（レガシー版除く）
+- :material-apple-safari:  Safari
+- :material-google-chrome: Google Chrome
+- :material-firefox: Firefox
+- :fontawesome-brands-edge: Microsoft Edge（レガシー版除く）
+
 
 
 ## クイックスタート
