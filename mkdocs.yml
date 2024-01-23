@@ -42,6 +42,7 @@ nav:
     - 'パスワードを忘れた！': 'howto/howto04.md'
   - '一般ユーザマニュアル': '一般機能/index.md'
   - '管理者ユーザマニュアル': '管理者機能/index.md'
+  - 'スマホアプリマニュアル': 'app/index.md'
   - 'リリースノート': 'releasenote/index.md'
   - '利用規約・プライバシーポリシー': 'policy.md'
 
