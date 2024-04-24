@@ -23,7 +23,7 @@
 ## 使い方
 
 ### 集計履歴を確認する
-<iframe src="https://scribehow.com/embed/__kzZ2aZxvRVWlnU9hqdEBmQ" width="640" height="640" allowfullscreen frameborder="0"></iframe>
+<iframe src="https://scribehow.com/embed/__0plC_2AaREirS_mXz7FJwQ" width="640" height="640" allowfullscreen frameborder="0"></iframe>
 
 
 ### 集計履歴から集計結果を表示する
