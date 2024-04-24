@@ -20,7 +20,7 @@
 ## 送金金額入力画面
 
 <a href="../../../images/coin/2-2.png" data-lightbox="スクリーンショット" data-title="スクリーンショット">
-    <img src="../../../images/coin/2-2.png" style="border: solid 1px #ccc; width: 800px;" />
+    <img src="../../../images/coin/2-2.png" style="border: solid 1px #ccc; width: 400px;" />
 </a>
 
 ### 項目
