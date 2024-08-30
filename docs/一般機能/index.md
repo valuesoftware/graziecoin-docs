@@ -13,6 +13,8 @@
 - [Top](GrazieCoin/coin01.md)
 - [コインを送る](GrazieCoin/coin02.md)
 - [商品交換](GrazieCoin/coin03.md)
+- :new:[商品交換状況](GrazieCoin/coin04.md)
+
 
 ### :material-history: History
 - [ポイント履歴](History/history01.md)
