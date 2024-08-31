@@ -111,11 +111,17 @@
 - [グラッチェ数](利用状況/analysis02.md)
 
 
-### :material-cog: その他設定 
+### :material-thumb-up: グラッチェ設定 
 - [回数制限](その他設定/other01.md)
 - [スーパーグラッチェ](その他設定/other02.md)
-- [ユーザ登録リンク](その他設定/other03.md)
+
+### :material-lock: 機能制限設定
+- :new:[コイン送金制限設定](その他設定/other05.md)
 - [履歴公開設定](その他設定/other04.md)
+
+
+### :material-cog: その他設定 
+- [ユーザ登録リンク](その他設定/other03.md)
 
 ## 機能説明(オプション)
 - :fontawesome-solid-money-bill: [レート](../管理者機能/オプション機能/option01.md#_7)
