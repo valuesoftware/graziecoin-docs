@@ -1,5 +1,5 @@
+[管理者ユーザマニュアル](/管理者機能/) > [機能説明](/管理者機能/#_16) > [ユーザ](/管理者機能/#_19) > [ユーザ一覧](./user01.md) > [ユーザ登録](#)
 # ユーザ登録
-
 ## 画面
 <a href="../../../images/user/2.png" data-lightbox="スクリーンショット" data-title="スクリーンショット">
     <img src="../../../images/user/2.png" style="border: solid 1px #ccc; width: 600px;" />
