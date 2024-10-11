@@ -78,11 +78,11 @@
 
 ### :fontawesome-solid-user: ユーザ
 - [ユーザ一覧](ユーザ/user01.md)
-- [ユーザ登録](ユーザ/user02.md)
-- [ユーザ編集](ユーザ/user03.md)
-- [CSVインポート](ユーザ/user04.md)
-- [コイン一括配布](ユーザ/user05.md) 
-- [コイン一括回収](ユーザ/user06.md) 
+    - [ユーザ登録](ユーザ/user02.md)
+    - [ユーザ編集](ユーザ/user03.md)
+    - [CSVインポート](ユーザ/user04.md)
+    - [コイン一括配布](ユーザ/user05.md) 
+    - [コイン一括回収](ユーザ/user06.md) 
 
 ### :material-gift: 商品
 - [商品管理](productmaintenance.md)
@@ -92,8 +92,8 @@
 
 ### :material-calculator: 集計・表彰
 - [集計実行](集計・表彰/total01.md)
-- [集計履歴](集計・表彰/total02.md)
-- [表彰](集計・表彰/total03.md)
+    - [集計履歴](集計・表彰/total02.md)
+    - [表彰](集計・表彰/total03.md)
 
 ### :fontawesome-solid-robot: 自動集計設定 
 - [自動集計設定一覧](自動集計設定/autototal01.md)
@@ -104,7 +104,7 @@
 
 ### :material-bank: 予算管理 
 - [予算管理](予算管理/budget01.md)
-- [流通額確認](予算管理/budget02.md)
+    - [流通額確認](予算管理/budget02.md)
 
 ### :material-chart-pie: 利用状況 
 - [ログインユーザ数](利用状況/analysis01.md)

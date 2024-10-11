@@ -1,3 +1,4 @@
+[一般ユーザ向けマニュアル](/一般機能/) > [機能説明](/一般機能/#_2) > [Grazie Point](/一般機能/#grazie-point) > [Top](#)
 # Grazie Point Top
 
 ## 画面

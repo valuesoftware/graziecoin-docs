@@ -7,13 +7,13 @@
 
 ### :material-thumb-up: Grazie Point
 - [Top](GraziePoint/grazie01.md)
-- [グラッチェする](GraziePoint/grazie02.md)
+    - [グラッチェする](GraziePoint/grazie02.md)
 
 ### :fontawesome-solid-coins: Grazie Coin
 - [Top](GrazieCoin/coin01.md)
-- [コインを送る](GrazieCoin/coin02.md)
-- [商品交換](GrazieCoin/coin03.md)
-- :new:[商品交換状況](GrazieCoin/coin04.md)
+    - [コインを送る](GrazieCoin/coin02.md)
+    - [商品交換](GrazieCoin/coin03.md)
+        - :new:[商品交換状況](GrazieCoin/coin04.md)
 
 
 ### :material-history: History
@@ -31,11 +31,7 @@
 ## オプション機能
 
 ### :material-fire: MVP
-- [MVPとは](../管理者機能/オプション機能/option02.md)
 - [選挙を表示する](Mvp/mvp11.md)
 - [候補者を推薦する](Mvp/mvp12.md)
 - [投票する](Mvp/mvp13.md)
 - [選挙結果を確認する](Mvp/mvp14.md)
-
-
-
