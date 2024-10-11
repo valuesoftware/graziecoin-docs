@@ -76,4 +76,4 @@
 ```
 
 ### 期間・対象を選択して、グラッチェメッセージをダウンロードする
-<iframe src="https://scribehow.com/embed/Generate_Report_for_Dates_and_Messages__rZN0lMdpS1iocLd5ULMkBw" width="640" height="640" allowfullscreen frameborder="0"></iframe>
+<iframe src="https://scribehow.com/embed/__rZN0lMdpS1iocLd5ULMkBw" width="640" height="640" allowfullscreen frameborder="0"></iframe>
