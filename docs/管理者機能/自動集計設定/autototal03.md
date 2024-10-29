@@ -5,9 +5,6 @@
 <a href="../../../images/autototal/3-1.png" data-lightbox="スクリーンショット" data-title="スクリーンショット">
     <img src="../../../images/autototal/3-1.png" style="border: solid 1px #ccc; width: 800px;" />
 </a>
-<a href="../../../images/autototal/3-2.png" data-lightbox="スクリーンショット" data-title="スクリーンショット">
-    <img src="../../../images/autototal/3-2.png" style="border: solid 1px #ccc; width: 800px;" />
-</a>
 
 （クリックすると拡大します）
 

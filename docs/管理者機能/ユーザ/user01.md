@@ -67,14 +67,14 @@
     ウォレット残高は[管理者コンソール](../adminconsole.md)に表示されています
 
 
-<iframe src="https://scribehow.com/embed/1__qIm60GrJQVqGEqmmpfoQvA" width="640" height="640" allowfullscreen frameborder="0"></iframe>
+<iframe src="https://scribehow.com/embed/1__9WqDk0_dSaSZd84aT78U6g" width="640" height="640" allowfullscreen frameborder="0"></iframe>
 
 ### 1人のユーザからコインを回収する
 
 !!! info
     管理者は一般ユーザに対して誤ってコインを付与してしまった際などに付与したコインを回収することができます
 
-<iframe src="https://scribehow.com/embed/1__ad_EZiolQDmMwd7MrspOBg" width="640" height="640" allowfullscreen frameborder="0"></iframe>
+<iframe src="https://scribehow.com/embed/1__mkJQuCoXREu232Dy0cI_mQ" width="640" height="640" allowfullscreen frameborder="0"></iframe>
 
 ### [複数ユーザに一括でコインを送る](user05.md)
 
