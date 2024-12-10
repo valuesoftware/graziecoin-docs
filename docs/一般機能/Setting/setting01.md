@@ -30,11 +30,11 @@
 ## 使い方
 
 ### サムネイル画像を変更する
-<iframe src="https://scribehow.com/embed/__MtJ0B7bBQky4HGde379s9Q" width="640" height="640" allowfullscreen frameborder="0"></iframe>
+<iframe src="https://scribehow.com/embed/__POnaEjhZQoq_7vi7j4IU-Q" width="640" height="640" allowfullscreen frameborder="0"></iframe>
 
 
 ### パスワードを再設定する
-<iframe src="https://scribehow.com/embed/__RmWmnVDjSKiDnf1FZ6QiIA" width="640" height="640" allowfullscreen frameborder="0"></iframe>
+<iframe src="https://scribehow.com/embed/__Gaz1DS8ASsu28GHl11KbpA" width="640" height="640" allowfullscreen frameborder="0"></iframe>
 
 
 #### パスワード再設定メールの文面

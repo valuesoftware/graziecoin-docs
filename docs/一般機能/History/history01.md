@@ -7,7 +7,7 @@
         - 詳細は[履歴公開設定](../../管理者機能/その他設定/other04.md)をご確認ください
     - 特定の履歴だけを非表示にすることは**できません**
     - ログイン中のユーザは緑色で表示されます
-    - ログイン中のユーザ以外のユーザは青色で表示され、下線が引かれています  
+    - :new:ログイン中のユーザ以外のユーザは青色で表示され、下線が引かれています  
     押下することでグラッチェすることができます
 
 ## 画面
@@ -32,9 +32,9 @@
 |   1   | ポイント履歴タブ |   -   | タブを押すとポイント履歴を表示します                                                                                                                                   |
 |   2   | [コイン履歴タブ](./history02.md)   |   -   | タブを押すとコイン履歴を表示します                                                                                                                                     |
 |   3   | 取引時刻         |   -   | グラッチェした・された日時が表示されます |
-|   4   | 送信ユーザ   |   -   | 下線が引かれている場合、[押下する事でグラッチェできます](../../GraziePoint/grazie02/#_4)      |
+|   4   | 送信ユーザ   |   -   | :new:下線が引かれている場合、[押下する事でグラッチェできます](../../GraziePoint/grazie02/#_4)      |
 |   5   | メッセージ   |   -   | 絞り込みたい日付を入力します      |
-|   6   | 受信ユーザ   |   -   | 下線が引かれている場合、[押下する事でグラッチェできます](../../GraziePoint/grazie02/#_4)      |
+|   6   | 受信ユーザ   |   -   | :new:下線が引かれている場合、[押下する事でグラッチェできます](../../GraziePoint/grazie02/#_4)      |
 |   7   | 検索する日付   |   -   | 絞り込みたい日付を入力します      |
 |   8   | ユーザIDまたはユーザ名入力フォーム   |   -   | 絞り込みたいユーザIDまたはユーザ名に含まれている文字を入力します      |
 |   9   | 絞り込むボタン   |   -   | ボタンを押すと入力された条件から履歴を絞り込んで表示します      |
@@ -52,12 +52,12 @@
 
 ### 履歴を日付で絞り込む
 
-<iframe src="https://scribehow.com/embed/__8EQmt9-dT0K2PBd1WBjF3Q" width="640" height="640" allowfullscreen frameborder="0"></iframe>
+<iframe src="https://scribehow.com/embed/__9CiIW2vsSBGvERHyJx1FKQ" width="640" height="640" allowfullscreen frameborder="0"></iframe>
 
 ### 履歴をユーザID/ユーザ名で絞り込む
 
-<iframe src="https://scribehow.com/embed/ID__uEGle0AKTS6WS6ojdnO4PQ" width="640" height="640" allowfullscreen frameborder="0"></iframe>
+<iframe src="https://scribehow.com/embed/ID__xq2ODZdFTJK4YPUWsBTGqw" width="640" height="640" allowfullscreen frameborder="0"></iframe>
 
 ### 履歴を日付、ユーザID/ユーザ名で絞り込む
 
-<iframe src="https://scribehow.com/embed/ID__b5LEw3E-QKSTFdPj0FA7Hg" width="640" height="640" allowfullscreen frameborder="0"></iframe>
+<iframe src="https://scribehow.com/embed/ID__8icvi4VLTTGs2DjQpeYy4w" width="640" height="640" allowfullscreen frameborder="0"></iframe>

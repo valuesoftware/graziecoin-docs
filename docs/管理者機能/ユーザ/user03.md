@@ -51,7 +51,7 @@
 
 ## 使い方
 ### ユーザ情報を編集する
-<iframe src="https://scribehow.com/embed/__kjlytS5hSl2B3UTlKKBGyQ" width="640" height="640" allowfullscreen frameborder="0"></iframe>
+<iframe src="https://scribehow.com/embed/__n2MAPW4aS9CPmdUoNrroBg" width="640" height="640" allowfullscreen frameborder="0"></iframe>
 
 
 ### ユーザのパスワードを変更する

@@ -22,6 +22,6 @@
 
 ## 使い方
 ### ユーザを登録する
-<iframe src="https://scribehow.com/embed/__nky4IBdrTKCZA5kiGk81Hg" width="640" height="640" allowfullscreen frameborder="0"></iframe>
+<iframe src="https://scribehow.com/embed/__B-loQmWqQpaFxqJ6i74dRQ" width="640" height="640" allowfullscreen frameborder="0"></iframe>
 
 

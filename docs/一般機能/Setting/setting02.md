@@ -22,7 +22,7 @@
 ## 使い方
 ### 通知設定を変更する
 
-<iframe src="https://scribehow.com/embed/__QTYAzRstSz6hy_2Qe-Kqwg" width="640" height="640" allowfullscreen frameborder="0"></iframe>
+<iframe src="https://scribehow.com/embed/__r1j6ZbWtQleIL5Zkz79-yw" width="100%" height="640" allowfullscreen frameborder="0"></iframe>
 
 ### メール通知例
 <a href="../../../images/setting/2-2.png" data-lightbox="スクリーンショット" data-title="スクリーンショット">
