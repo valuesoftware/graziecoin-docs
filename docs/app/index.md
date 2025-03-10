@@ -62,15 +62,15 @@
 ### グラッチェを送る(メッセージ入力)画面へ移動　
 グラッチェの直近5件の取引履歴に表示されているユーザ名の下部にある「返信」or「送る」をタップすると、表示されているユーザにグラッチェすることができます
 
-<img alt="Home1" src="img/home.png" width="300">
-<img alt="Home2" src="img/home2.png" width="300">
+<img alt="Home1" src="img/Home.png" width="300">
+<img alt="Home2" src="img/Home2.png" width="300">
 
 ### グラッチェメッセージの詳細を表示　
 グラッチェの直近5件の取引履歴に表示されているメッセージの右下にある「続きを見る」をタップすると、メッセージの全文が表示されます
 **※メッセージ数によっては表示されません**
 
-<img alt="Home3" src="img/home4.png" width="300">
-<img alt="Home4" src="img/home3.png" width="300">
+<img alt="Home3" src="img/Home4.png" width="300">
+<img alt="Home4" src="img/Home3.png" width="300">
 
 
 ## Grazie
