@@ -124,7 +124,7 @@
 - [ユーザ登録リンク](その他設定/other03.md)
 
 ## 機能説明(オプション)
-- :fontawesome-solid-money-bill: [レート](../管理者機能/オプション機能/option01.md#_7)
+- :fontawesome-solid-money-bill: [レート](../管理者機能/オプション機能/option01.md#)
 - :fontawesome-solid-trophy: [MVP](../管理者機能/Mvp/index.md)
 
 
