@@ -29,7 +29,7 @@
   - Android : 指紋認証、顔認証が利用できます
     - 画面上のラベルは「指紋認証」「顔認証」と表示されます
 
-### :material-new-box: パスワード再設定
+### パスワード再設定
 ##### 1.パスワード入力欄の右下にある「パスワード忘れた？」をタップしてください
 
 <img alt="ログイン" src="img/login2.png" width="300">
@@ -72,6 +72,12 @@
 <img alt="Home3" src="img/Home4.png" width="300">
 <img alt="Home4" src="img/Home3.png" width="300">
 
+### :material-new-box: グラッチェを取り消す
+
+- グラッチェ取消機能の仕様は[こちら](../管理者機能/その他設定/other07.md)をご確認ください。
+
+<img alt="Home5" src="img/Home5.png" width="300">
+<img alt="Home6" src="img/Home6.png" width="300">
 
 ## Grazie
 グラッチェを送る画面です。
@@ -151,7 +157,7 @@
 <img alt="商品選択" src="img/coin6.png" width="300">
 
 
-## :material-new-box: Ranking
+## Ranking
 過去の集計結果、その日のグラッチェをした/されたユーザをランキング形式で表示する画面です。
 グラッチェ集計の表彰ランキングと、サービス利用開始から通算のランキングと、1日ごとのランキングを表示します。
 プルダウンを切り替えるとサービスを利用する組織全体や事業所ごとの表示になります。
@@ -248,10 +254,23 @@
 <img alt="サムネイル画像確認" src="img/settings5.png" width="300">
 <img alt="サムネイル変更後" src="img/settings6.png" width="300">
 
-### グラッチェメッセージ変更
+### :material-new-box: ユーザ情報変更
+
+- ユーザ情報更新リンク機能が有効になっている場合にのみご利用いただけます
+- ユーザ情報更新フォームの操作手順は[こちら](../一般機能/Setting/setting01.md#_7)をご確認ください
+
+<img alt="ユーザ情報変更" src="img/settings9.png" width="300">
+<img alt="ユーザ情報変更" src="img/settings10.png" width="300">
+
+### :material-new-box: グラッチェメッセージ変更
 Grazie画面でユーザ名の右隣に表示される👍ボタンをタップした際のデフォルトメッセージを変更できます。
 
 <img alt="デフォルトグラッチェメッセージ" src="img/settings2.png" width="300">
+
+:material-new-box: 設定されているメッセージをタップすると入力がクリアされ、入力例に設定されていたメッセージが表示されます。
+
+<img alt="設定" src="img/settings7.png" width="300">
+<img alt="設定" src="img/settings8.png" width="300">
 
 ### 言語設定変更
 アプリ全体に表示されるラベルやボタンの言語の設定を変更することができます。
