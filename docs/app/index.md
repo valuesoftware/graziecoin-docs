@@ -72,7 +72,7 @@
 <img alt="Home3" src="img/Home4.png" width="300">
 <img alt="Home4" src="img/Home3.png" width="300">
 
-### :material-new-box: グラッチェを取り消す
+###  グラッチェを取り消す
 
 - グラッチェ取消機能の仕様は[こちら](../管理者機能/その他設定/other07.md)をご確認ください。
 
@@ -96,7 +96,11 @@
 <img alt="グラッチェ" src="img/grazie.png" width="300">
 <img alt="グラッチェメッセージ" src="img/grazie2.png" width="300">
 
-
+### :material-new-box: 重み付けされたグラッチェを送る
+- **重み付け機能が有効になっている場合にのみ操作できます**
+- 詳しくは[グラッチェの大きさ設定とは](../管理者機能/その他設定/other09.md)をご確認ください
+<img alt="グラッチェメッセージ" src="img/grazie3.png" width="300">
+<img alt="グラッチェメッセージ" src="img/grazie4.png" width="300">
 
 ## Coin
 グラッチェコインの送金や、商品を交換する画面です。
@@ -254,7 +258,7 @@
 <img alt="サムネイル画像確認" src="img/settings5.png" width="300">
 <img alt="サムネイル変更後" src="img/settings6.png" width="300">
 
-### :material-new-box: ユーザ情報変更
+###  ユーザ情報変更
 
 - ユーザ情報更新リンク機能が有効になっている場合にのみご利用いただけます
 - ユーザ情報更新フォームの操作手順は[こちら](../一般機能/Setting/setting01.md#_7)をご確認ください
@@ -262,12 +266,12 @@
 <img alt="ユーザ情報変更" src="img/settings9.png" width="300">
 <img alt="ユーザ情報変更" src="img/settings10.png" width="300">
 
-### :material-new-box: グラッチェメッセージ変更
+###  グラッチェメッセージ変更
 Grazie画面でユーザ名の右隣に表示される👍ボタンをタップした際のデフォルトメッセージを変更できます。
 
 <img alt="デフォルトグラッチェメッセージ" src="img/settings2.png" width="300">
 
-:material-new-box: 設定されているメッセージをタップすると入力がクリアされ、入力例に設定されていたメッセージが表示されます。
+ 設定されているメッセージをタップすると入力がクリアされ、入力例に設定されていたメッセージが表示されます。
 
 <img alt="設定" src="img/settings7.png" width="300">
 <img alt="設定" src="img/settings8.png" width="300">

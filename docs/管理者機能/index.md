@@ -115,10 +115,12 @@
 - [回数制限](その他設定/other01.md)
 - [スーパーグラッチェ](その他設定/other02.md)
 - [グラッチェ取消](その他設定/other07.md)
+- :material-new-box: [グラッチェの大きさ](その他設定/other09.md)
 
 ### :material-lock: 機能制限設定
 - [コイン送金制限設定](その他設定/other05.md)
 - [履歴公開設定](その他設定/other04.md)
+- :material-new-box: [メールアドレス表示設定](その他設定/other08.md)
 
 
 ### :material-cog: その他設定 
