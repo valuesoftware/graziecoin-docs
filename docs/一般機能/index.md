@@ -8,7 +8,7 @@
 ### :material-thumb-up: Grazie Point
 - [Top](GraziePoint/grazie01.md)
     - [グラッチェする](GraziePoint/grazie02.md)
-    - :material-new-box: [グラッチェを取り消す](GraziePoint/grazie03.md)
+    -  [グラッチェを取り消す](GraziePoint/grazie03.md)
 
 ### :fontawesome-solid-coins: Grazie Coin
 - [Top](GrazieCoin/coin01.md)
