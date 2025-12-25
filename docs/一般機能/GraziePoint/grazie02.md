@@ -40,7 +40,7 @@
 ### グラッチェする
 - [グラッチェする](../../howto/howto01.md)
 
-### :material-new-box: 重み付けされたグラッチェする
+### 重み付けされたグラッチェする
 - **重み付け機能が有効になっている場合にのみ操作できます**
 - 詳しくは[グラッチェの大きさ設定とは](../../管理者機能/その他設定/other09.md)をご確認ください
 <iframe src="https://scribehow.com/embed/__2lXpuodRRjyooStbuG3u0Q" width="640" height="640" allowfullscreen frameborder="0"></iframe>
