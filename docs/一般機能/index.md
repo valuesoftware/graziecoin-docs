@@ -5,6 +5,9 @@
 ### :material-menu: メニュー
 - [画面構成](メニュー/menu01.md)
 
+### :material-bell: お知らせ掲示板
+- [お知らせ一覧](Announce/announce01.md)
+
 ### :material-thumb-up: Grazie Point
 - [Top](GraziePoint/grazie01.md)
     - [グラッチェする](GraziePoint/grazie02.md)
