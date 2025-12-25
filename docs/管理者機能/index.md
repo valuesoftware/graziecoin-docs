@@ -102,6 +102,13 @@
 - [集計日入力](自動集計設定/autototal04.md)
 - [入力内容確認](自動集計設定/autototal05.md)
 
+### :material-bell: お知らせ掲示板
+- [お知らせ一覧](お知らせ掲示板/announce01.md)
+    - [お知らせ登録](お知らせ掲示板/announce02.md)
+    - [お知らせ編集](お知らせ掲示板/announce03.md)
+    - [お知らせ削除](お知らせ掲示板/announce01.md#_9)
+    - [リッチテキストエディタの使い方](お知らせ掲示板/announce04.md)
+
 ### :material-bank: 予算管理 
 - [予算管理](予算管理/budget01.md)
     - [流通額確認](予算管理/budget02.md)
@@ -114,13 +121,13 @@
 ### :material-thumb-up: グラッチェ設定 
 - [回数制限](その他設定/other01.md)
 - [スーパーグラッチェ](その他設定/other02.md)
+- [グラッチェの大きさ](その他設定/other09.md)
 - [グラッチェ取消](その他設定/other07.md)
-- :material-new-box: [グラッチェの大きさ](その他設定/other09.md)
 
 ### :material-lock: 機能制限設定
 - [コイン送金制限設定](その他設定/other05.md)
 - [履歴公開設定](その他設定/other04.md)
-- :material-new-box: [メールアドレス表示設定](その他設定/other08.md)
+- [メールアドレス表示設定](その他設定/other08.md)
 
 
 ### :material-cog: その他設定 
