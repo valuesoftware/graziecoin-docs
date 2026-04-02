@@ -21,8 +21,8 @@
 ## 技術スタック
 このプロジェクトで利用している主な技術について、初心者の方にも分かりやすく説明します。
 
-- **Python 3.8+**
-    プログラミング言語です。バージョン3.8以上を推奨しています。Pythonはシンプルで分かりやすく、初心者にも人気があります。
+- **Python 3.12+**
+    プログラミング言語です。バージョン3.12以上を推奨しています。Pythonはシンプルで分かりやすく、初心者にも人気があります。
 
 - **MkDocs**
     Markdown形式で書いた文章を、見やすいWebサイトに変換するツールです。コマンド一つでローカルサーバーを立ち上げたり、HTMLファイルとして出力できます。
@@ -43,7 +43,6 @@
 graziecoin-docs/
 ├── README.md                # プロジェクト全体の案内や手順をまとめたファイル
 ├── mkdocs.yml               # MkDocsの設定ファイル（サイト構成やテーマ指定）
-├── requirements.txt         # 必要なPythonパッケージ一覧
 ├── img/                     # インストール手順や拡張機能の画像（トップ用）
 │   ├── install-01.png       # インストール手順画像
 │   └── install-02.png       # 拡張機能インストール画像
@@ -96,7 +95,6 @@ graziecoin-docs/
 各ファイル・フォルダの役割を簡単にまとめると、
  - `README.md`は全体のガイド
  - `mkdocs.yml`はサイトの設定
- - `requirements.txt`はPython環境の準備
  - `docs/`以下に実際の説明文や画像を配置
 という形になっています。
 今後、必要に応じて新しいフォルダやファイルが追加される場合があります。
@@ -112,7 +110,7 @@ graziecoin-docs/
 
     Python 2.7.16
     ```
-    - Python3.8以上 : PIPインストールへ
+    - Python3.12以上 : PIPインストールへ
     - 上記未満 : 以下の手順を実行
 1. Homeblewインストール
     ```shell
@@ -136,27 +134,27 @@ graziecoin-docs/
     ```
 1. pyenvでPythonをインストール
     ```shell
-    pyenv install 3.8.3
+    pyenv install 3.12.13
     ```
 2. インストールしたバージョンを確認（`*`がついているのが有効なバージョン）
     ```shell
     pyenv versions
 
     * system
-      3.8.3
+      3.12.13
     ```
 3. バージョン切り替え
     ```shell
-    pyenv global 3.8.3
+    pyenv global 3.12.13
     ```
 4. バージョン確認
     ```shell
     python -V
 
-    Python 3.8.3
+    Python 3.12.13
     ```
 
-`pyenv install 3.8.3` でエラーが発生する場合、以下の手順で再試行する。
+`pyenv install 3.12.13` でエラーが発生する場合、以下の手順で再試行する。
 
 #### エラーになる場合
 エラーが出力される場合、次のコマンドを順番に入力する。
@@ -193,17 +191,10 @@ graziecoin-docs/
     brew install tcl-tk
 
     # Uninstall previous versions from python
-    pyenv uninstall 3.8.3
+    pyenv uninstall 3.12.13
 
-    # Install python 3.8.3 patched
-    env \
-    PATH="$(brew --prefix tcl-tk)/bin:$PATH" \
-    LDFLAGS="-L$(brew --prefix tcl-tk)/lib -L$(brew --prefix zlib)/lib -L$(brew --prefix bzip2)/lib" \
-    CPPFLAGS="-I$(brew --prefix tcl-tk)/include -L$(brew --prefix zlib)/include -L$(brew --prefix bzip2)/include" \
-    PKG_CONFIG_PATH="$(brew --prefix tcl-tk)/lib/pkgconfig" \
-    CFLAGS="-I$(brew --prefix tcl-tk)/include -I$(brew --prefix openssl)/include -I$(brew --prefix bzip2)/include -I$(brew --prefix zlib)/include -I$(brew --prefix readline)/include -I$(xcrun --show-sdk-path)/usr/include" \
-    LDFLAGS="-I$(brew --prefix tcl-tk)/lib -L$(brew --prefix openssl)/lib -L$(brew --prefix readline)/lib -L$(brew --prefix zlib)/lib -L$(brew --prefix bzip2)/lib"
-    pyenv install --patch 3.8.3 < <(curl -sSL https://github.com/python/cpython/commit/8ea6353.patch\?full_index\=1)
+    # Install python 3.12.13
+    pyenv install 3.12.13
 
     ```
 
@@ -218,8 +209,10 @@ Pythonのパッケージマネージャーであるpipをインストール
     ```
 
 ### Python導入後
-1. `requirements.txt`のパッケージを一括でインストールする
-`pip install -r requirements.txt`
+1. セットアップスクリプトを実行して仮想環境とMkDocsをインストールする
+    ```shell
+    ./setup.sh
+    ```
 1. 推奨拡張機能をインストール
     1. 推奨拡張機能を表示
         ![](./img/install-01.png)
@@ -227,11 +220,13 @@ Pythonのパッケージマネージャーであるpipをインストール
         ![](./img/install-02.png)
 
 ## MkDocs実行
-- ローカルで確認
-`mkdocs serve`
 
-- HTMLにビルド
-`mkdocs build`
+| スクリプト | 用途 |
+| --- | --- |
+| `./serve.sh` | ローカルで確認（ライブリロード付き） |
+| `./build.sh` | HTMLにビルド |
+
+> **注意:** 初回は先に `./setup.sh` を実行して仮想環境をセットアップしてください。
 
 
 
