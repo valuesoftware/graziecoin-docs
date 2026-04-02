@@ -112,7 +112,7 @@ graziecoin-docs/
     ```
     - Python3.12以上 : PIPインストールへ
     - 上記未満 : 以下の手順を実行
-1. Homeblewインストール
+1. Homebrewインストール
     ```shell
     $ /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
     ```
